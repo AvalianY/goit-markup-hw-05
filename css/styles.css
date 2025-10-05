@@ -637,10 +637,6 @@ main .container {
     margin-bottom: 16px;
 }
 
-.form-contact {
- 
-}
-
 .form-contact-container {
     margin-bottom: 8px;
 }
@@ -683,7 +679,7 @@ main .container {
     fill: var(--navy-blue);
 }
 
-.contact-input:focus .form-input-svg {
+.contact-input:focus+.form-input-svg {
     fill: var(--iris);
 }
 
@@ -736,10 +732,13 @@ main .container {
     fill: transparent;
 }
 
-.input-checkbox:checked .manual-check-box {
+.input-checkbox:checked + .manual-check-box {
     background-color: var(--ocean);
     border: none;
-    fill: var(--ocean);
+}
+
+.input-checkbox:checked + .manual-check-box .check {
+    fill: var(--dairy);
 }
 
 .link-check-box {
