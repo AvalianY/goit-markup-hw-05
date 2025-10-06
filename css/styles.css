@@ -730,14 +730,12 @@ main .container {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
-.input-checkbox:checked + .manual-check-box {
+.input-checkbox:checked + .checkbox-label-contact > .manual-check-box {
     background-color: var(--ocean);
     border: none;
-}
-
-.input-checkbox:checked + .manual-check-box .check {
     fill: var(--dairy);
 }
 
