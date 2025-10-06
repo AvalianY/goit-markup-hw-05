@@ -736,7 +736,7 @@ main .container {
 .input-checkbox:checked + .checkbox-label-contact > .manual-check-box {
     background-color: var(--ocean);
     border: none;
-    fill: var(--dairy);
+    fill: var(--cloud);
 }
 
 .link-check-box {
